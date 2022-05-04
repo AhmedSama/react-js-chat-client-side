@@ -17,7 +17,7 @@ import getBase64FromUrl from "../utility/getBase64FromUrl";
 
 
 
-const server = "http://localhost:3001"
+const server = "https://blooming-sands-55600.herokuapp.com"
 
 function Chat(props){
     // put socket inside useRef() so it won't change when the component re-render when some state changes
